@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stylesheets/style.css">
+        <title>Book Report</title>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="javascripts/bookreport.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+        <!--<link rel="stylesheet" type="text/css" href="stylesheets/style.css">-->
+
+    </head>
+
+
+    <body>
+
+        <h1>Book Report</h1>
+        <form id="bookReportForm" action="">
+            <label for="name">Name: </label>
+            <input type="text" id="title" placeholder="Title"><br>
+            <label for="report">Report: </label>
+            <input type="text" id="report" placeholder="Report"><br>
+        </form>
+
+        <button id="postReport">Post Report</button>
+        <button id="getReport">Get Report</button>
+        <button id="deleteReports">Delete All</button>
+        
+        
+        <div id="json"></div>
+        <div id="done"></div>
+	<div>Reports</div>
+        <div id="reports"></div>
+    </body>
+
+</html>
